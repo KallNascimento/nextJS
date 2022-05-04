@@ -1,0 +1,22 @@
+.zebra{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.zebra td, .zebra th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.zebra tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+.zebra tr:hover{
+    background-color: #ddd;
+}
+.zebra th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04aa6d;
+    color: whitesmoke;
+}
